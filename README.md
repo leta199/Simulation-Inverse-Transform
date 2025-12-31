@@ -1,13 +1,13 @@
 # Simulation-Inverse-Transform
-Inverse transformation is a method of simulation that allows sampling from an invertible function to generate data from said function. This has various applications such as taking said data to compute expceted  values, variance, satdnard devaition etc.
-We will use both Monte Carlo and Inverse transform to approximate the area of a circle of radius r with area Y. 
-Rdius "r" is distributed on a uniform distribution of [1,4]
-We will try to find the expected value of "Y" (our area) 
+Inverse transformation is a method of simulation that allows sampling from an invertible function to generate data from said function. This has various applications such as taking said data to compute expceted  values, variance, satdnard devaition etc.  
+We will use both Monte Carlo and Inverse transform to approximate the area of a circle of radius r with area Y.   
+Radius "r" is distributed on a uniform distribution of [1,4]  
+We will try to find the expected value of "Y" (our area). 
 
 This project will cover:
 
-- Compare Monte Carlo to Inverse transform methods
-- Approximate the expecetd value of Area of a circle
+- Comparing Monte Carlo to Inverse transform methods
+- Approximate the expected value of Area of a circle
 - Plotting histogram of Inverse method vs Line graph of theoretical value
  
 ## HOW IT'S MADE 
@@ -20,7 +20,12 @@ Environment: RStudio
 
 ## METHODS AND TECHNIQUES  
 **Monte Carlo Method**
-We begin by defining a funcion that we will call to
+`sim_circle()` - We begin by defining a funcion that we will call to approximate the area of our circle with this method.     
+- Define our set seed to allow for reproducibility
+- Set up 10,000 runs of the simulation
+- Randomly generate value of "r" from a uniform distribution from 1 to 4 and save to a list
+- Find the mean of the area from the generated 
+
 
 
 
