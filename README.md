@@ -1,5 +1,6 @@
 # Simulation-Inverse-Transform
 Inverse transformation is a method of simulation that allows sampling from an invertible function to generate data from said function. This has various applications such as taking said data to compute expceted  values, variance, satdnard devaition etc.
+We will use both Monte Carlo and Inverse transform to approximate the area of a circle of radius r with area Y. 
 
 This project will cover:
 
@@ -16,17 +17,8 @@ Environment: RStudio
 ![Status](https://img.shields.io/badge/Status-Completed-lightgrey)
 
 ## METHODS AND TECHNIQUES  
-**Practice simulation**   
-
-Setting up the number of bets per month (100,000) as n
-Setting up the probability of success and failure for each bet at 20/38 and 18/38
-Defined `totalgain` as a test run of the  amount for 1 simulation run 
-
-**Simulation loop**  
-- Set seed for reproducibility   
-- Defining the total number of bets made per month (100,000)  
-- Creating a random walk by sampling between gains of $-1 and $1 with the given probabilities and number of bets per month  
-- Plotting the randomwalk via "distance" from our start point of $0  
+**Monte Carlo Method**
+We begin by defining a funcion that we will call to
 
 <img width="1183" height="825" alt="Image" src="https://github.com/user-attachments/assets/56b7f5bc-90ec-4551-be9e-b8ba0fb1031c" />
 
