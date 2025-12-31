@@ -4,14 +4,12 @@ Inverse transformation is a method of simulation that allows sampling from an in
 This project will cover:
 
 - Compare Monte Carlo to Inverse transform methods
-- Approxiamte the expecetd value of 
-- Simulating "Gamblers Ruin" using random walks
-- Graphing the random walk and finding the probability of making between $4600 and $6000 from 100,000 bets in a casino
+- Approximate the expecetd value of Area of a circle
+- Plotting histogram of Inverse method vs Line graph of theoretical value
  
 ## HOW IT'S MADE 
 Languages used: R (version 4.5.1)    
-Environement: RStudio  
-Packages: 
+Environment: RStudio  
 
 [![Language: R](https://img.shields.io/badge/Language-R-276DC3.svg?style=flat-square)](https://www.r-project.org/)
 [![Built with RStudio](https://img.shields.io/badge/IDE-RStudio-75AADB?style=for‐the‐badge&logo=rstudio&logoColor=white)](https://www.rstudio.com/)
