@@ -39,9 +39,9 @@ We can compare the histogram and line graph of our generated areas and compare t
 <img width="1058" height="838" alt="Image" src="https://github.com/user-attachments/assets/9dbe6cb9-3ddf-48e4-a0b1-102d9ea89575" />
  
  ## PROJECT STRUCTURE      
-|[Simulation- Random Walks](https://github.com/leta199/Simulation-Random-Walks)  
-|├── [Randomwalk R script](https://github.com/leta199/Simulation-Random-Walks/blob/main/Randomwalk.r)   
-|└──[Random latex](https://github.com/leta199/Simulation-Random-Walks/blob/main/Random_Walk_Gamblers_Ruin.pdf)
+|[Simulation- Inverse Transform](https://github.com/leta199/Simulation-Random-Walks)  
+|├── [])   
+|└──[]()
   
 
 ## AUTHORS   
