@@ -31,10 +31,10 @@ Environment: RStudio
   `sim_circle_2()` - For this method was also also set our seed, number of trials
   - Create a list of values "u" from a unifrom [0,1] distribution
   - Calculate radii "r" using samples from the uniform distribution
-  - Store list of ares calculated from the radii "r" in the object "areas"
+  - Store list of areas calculated from the radii "r" in the object "areas"
   
  ## VISUALISING SIMULATION 
-We can compare the histogram and line graph of our generated areas and compare them to the actual probability denisty function of areas.
+We can compare the histogram and line graph of our generated areas and compare them to the actual probability density function of areas.
 
  
 
